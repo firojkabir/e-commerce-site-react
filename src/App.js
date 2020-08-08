@@ -6,16 +6,9 @@ import './App.css'
 
 function App() {
 	return (
-		<div class="container">
-			<div class="row">
-				<div className="col-6">col num one</div>
-				<div className="col-6">
-					<span>
-						<i className="fas fa-home" />
-					</span>
-				</div>
-			</div>
-		</div>
+		<>
+			<h1>Hello from App</h1>
+		</>
 	);
 }
 
