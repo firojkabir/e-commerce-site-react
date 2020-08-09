@@ -11,11 +11,27 @@ class Product extends Component {
                 <div className="card">
                     <div 
                         className="img-container p-5"
-                        onClick={console.log("Clicked")}
+                        onClick={() => console.log("Clicked")}
                     >
                         <Link to="/details">
                             <img src={img} alt="product" className="card-img-top" />
                         </Link>
+                        <button 
+                            className="cart-btn"
+                            disabled={inCart ? true : false}
+                            onClick={() => {
+                                console.log("added to the cart")
+                            }}
+                        >
+                            {inCart ? (
+                                <p className="text-capitalize mb-0" disabled>
+                                    {" "}
+                                    in Cart
+                                </p>
+                            ) : (
+                                <i className="fas fa-cart-plus" />
+                            )}
+                        </button>
                     </div>
                 </div>
             </ProductWrapper>
