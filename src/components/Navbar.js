@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import { ButtonContainer } from './Button'
 import logo from '../logo.svg'
+import { ButtonContainer } from './Button'
 
 class Navbar extends Component {
     render() {
@@ -11,12 +11,12 @@ class Navbar extends Component {
                 {/* https://www.iconfinder.com/icons/1243689/call_phone_icon
                 Creative Commons (Attribution 3.0 Unported);
                 https://www.iconfinder.com/Makoto_msk */}
-                <Link>
+                <Link to="/e-commerce-site-react/">
                     <img src={logo} alt="store" className="navbar-brand" />
                 </Link>
                 <ul className="navbar-nav align-items-center">
                     <li className="nav-item ml-5">
-                        <Link to="/" className="nav-link">
+                        <Link to="/e-commerce-site-react/" className="nav-link">
                             Products
                         </Link>
                     </li>
