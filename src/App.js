@@ -17,8 +17,8 @@ function App() {
 			<Navbar />
 			<Switch>
 				<Route exact path="/e-commerce-site-react" component={ProductList} />
-				<Route path="/details" component={Details} />
-				<Route path="/cart" component={Cart} />
+				<Route path="/e-commerce-site-react/details" component={Details} />
+				<Route path="/e-commerce-site-react/cart" component={Cart} />
 				<Route component={Default} />
 			</Switch>
 			<Modal />

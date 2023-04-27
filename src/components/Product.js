@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
-import styled from 'styled-components'
-import { Link } from 'react-router-dom'
-import { ProductConsumer } from '../context'
 import PropTypes from 'prop-types'
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import styled from 'styled-components'
+import { ProductConsumer } from '../context'
 
 class Product extends Component {
     render() {
@@ -18,7 +18,7 @@ class Product extends Component {
                                     value.handleDetail(id)
                                 }}
                             >
-                                <Link to="/details">
+                                <Link to="/e-commerce-site-react/details">
                                     <img src={img} alt="product" className="card-img-top" />
                                 </Link>
                                 <button 
