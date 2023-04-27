@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![homepage](public/img/homepage.png)
+
 ## Available Scripts
 
 To install all the dependencies, need to run:
