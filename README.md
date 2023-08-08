@@ -1,5 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Demo
 
 Demo of this application is available on the following url: [https://firojkabir.github.io/e-commerce-site-react/](https://firojkabir.github.io/e-commerce-site-react/)
